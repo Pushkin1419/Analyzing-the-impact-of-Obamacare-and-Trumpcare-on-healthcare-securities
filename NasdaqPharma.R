@@ -347,14 +347,6 @@ tvalue= x_mean/(sqrt((x_sd^2)/length(pchangeValues)))
 
 
 
-# October 1 2015 - December 31 2017
-#Index= 589:1155
-dz=d[c(589:1155)]
-vol1z=vol1[c(589:1155)]
-
-plot(dz,vol1z, type="l",xaxt="n", xlab="Date", ylab="Volatility Estimate", main="Nasdaq Pharmaceutical Index", ylim=c(0.003,0.065))
-monthsz= seq(min(dz), max(dz), "month")
-axis(1, monthsz, format(monthsz, "%Y\n%b"))
 
 
 
