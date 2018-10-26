@@ -20,7 +20,7 @@ How this is done is as follows:
 - If the news of policy changes does indeed have an impact on HealthCare Securities, then it would cause a rise in volatility for any given month. 
 - Therefore we will measure the %change in volatility between months where the announcement was made, the month before it, and the month after it. If there indeed was an impact on these securities, the the % change in volatity would have been high betweeen a "No-News-Month" and a "News-Month". 
 
-6) When done for all the events in our timeline, we will have a "Distribution" of % changes through our sample. We can then perform a one-sample t-test, by testing the hypothesis:
+6) When done for all the events in our timeline, we will have a "Distribution" of % changes" through our sample. We can then perform a one-sample t-test, by testing the hypothesis:
 Null Hypothesis: There is no impact of policy changes on HealthCare stocks; implying that %Change of Volatility = 0.
 Alternative Hypothesis: There is an impact of policy changes on Healthcare stocks, impying that %Changes of Voltility != 0
 
